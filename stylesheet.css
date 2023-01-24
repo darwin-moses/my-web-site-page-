@@ -1,4 +1,5 @@
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Fredoka One', cursive;
@@ -10,9 +11,21 @@ hr {
     border-color: gray;
     border-width: 6px;
     width: 5%;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 50px auto;
 }
-
+ 
+p{
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: 'Fredoka One', cursive;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+}
     
 h1{
     font-size: 375%; 
@@ -29,10 +42,13 @@ h2{
     font-family: 'VT323', monospace;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
+
 }    
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     color: #11999E;
+    padding: 10px;
     
 
 }   
@@ -49,7 +65,7 @@ h4{
 
 
 .middle-container{
-    margin: 50px auto 50px auto;
+    margin: 100px auto 50px auto;
 
 }
 .bottom-container{
@@ -58,7 +74,7 @@ h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: #11999e;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-top: 30px;
     position: relative;
 
@@ -117,7 +133,7 @@ h4{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Courier New;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffff;
     font-size: 18px;
     padding: 5px 5px 5px 5px;
@@ -133,11 +149,21 @@ h4{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  .footer-link{
-    color: #11cdd4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  }
+  
   .touch{
     font-size: 30px;
+  }
+  .copyrite{
+    color: whitesmoke;
+    font-size: 12px;
+    padding: 15px 0px;
+  }
+
+  .intro{
+    width: 30%;
+    margin: auto;
+  }
+  .contactmsg{
+    width: 30%;
+    margin: 30px auto 60px auto;
   }
